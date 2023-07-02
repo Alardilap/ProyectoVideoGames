@@ -1,0 +1,16 @@
+.origen{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none; /* Eliminar el borde de enfoque */
+    position: absolute;
+    top: 30px;
+    left: 60%;
+    width: 89px;
+  
+}
+
+.origen:hover{
+    color:#00bbf0;
+}

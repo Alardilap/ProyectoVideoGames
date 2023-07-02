@@ -1,0 +1,20 @@
+.buttonRef {
+  font-family: cursive;
+  font-size: 17px;
+  border-radius: 14px;
+  position: relative;
+  /* left: 557px;
+  top: 27px; */
+  background-color: transparent;
+  border: none;
+  /* font-weight: bold; */
+  background-color: #807979;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  left: 494px;
+  top: 26px;
+}
+.buttonRef:hover {
+  color: #00bbf0;
+}

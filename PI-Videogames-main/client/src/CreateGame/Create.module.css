@@ -1,0 +1,190 @@
+.formulario {
+  width: 800px;
+  height: 519px;
+  margin-left: 19%;
+  border: 2px solid;
+  border-radius: 10px;
+
+  position: fixed;
+  left: 2%;
+  top: 25px;
+
+  padding: 20px;
+}
+span {
+  color: rgb(23, 0, 107);
+  font-size: 15px;
+  font-weight: 800;
+  font-family: cursive;
+  position: fixed;
+}
+
+.contenedorNombre {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 10px;
+  outline: none;
+  margin-inline: 2px;
+  width: 171px;
+  border: 1px solid black;
+}
+
+input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+label {
+  font-size: 20px;
+  font-family: cursive;
+  color: black;
+  font-weight: 600;
+  list-style-type: none;
+  display: list-item;
+}
+input {
+  justify-content: center;
+  text-align: center;
+}
+.contenedordescription {
+  position: absolute;
+  top: 138px;
+  left: 50px;
+}
+.contenedorplataforma {
+  position: absolute;
+  top: 198px;
+  left: 50px;
+}
+.contenedorimagen {
+  position: absolute;
+  top: 340px;
+  left: 50px;
+}
+
+.contenedorlanzamiento {
+  position: absolute;
+  top: 275px;
+  left: 50px;
+}
+.contenedorpuntaje {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+}
+.generos {
+  position: absolute;
+  top: 88px;
+  left: 287px;
+  font-size: 20px;
+}
+.buttonsend {
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 35px;
+  border: 2px;
+  background-color: black;
+  border-radius: 20px;
+}
+.buttonsend:hover {
+  color: #00bbf0;
+}
+.titulo {
+  font-family: cursive;
+  font-size: 30px;
+  position: relative;
+
+  top: -10px;
+  color: #430f58;
+  left: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.labelgeneros {
+  width: 10px;
+  display: unset;
+  font-size: 14px;
+  color: #0f0f0f;
+}
+
+.inputgenres {
+  width: 10px;
+}
+.contenedorcheckbox {
+  position: absolute;
+  right: 218px;
+  top: 100px;
+}
+.contenedorformulario {
+  position: relative;
+  width: 500px;
+}
+.homebutton {
+  position: absolute;
+  top: 492px;
+  left: 69px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  width: 106px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+.plataformas {
+  font-size: 5px;
+  display: inline-block;
+}
+.plata {
+  font-size: 20px;
+  position: relative;
+  top: 120px;
+  right: 283px;
+}
+.selectPlat {
+  font-size: 20px;
+  position: relative;
+  top: 120px;
+  right: 265px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 10px;
+  outline: none;
+  margin-inline: 2px;
+  width: 171px;
+  border: 1px solid black;
+  top: 120px;
+  right: 270px;
+  width: 198px;
+}
+
+.selectPlat:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+label::before,
+label::after {
+  content: none;
+}
+.contenedorgenres {
+  position: relative;
+  bottom: 86px;
+}

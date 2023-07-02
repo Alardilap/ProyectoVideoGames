@@ -1,0 +1,40 @@
+.search {
+  font-size: 20px;
+  font-family: cursive;
+  bottom: 94px;
+  position: relative;
+}
+.boton {
+  font-family: cursive;
+  font-size: 19px;
+  border: 1px solid #040404;
+  border-radius: 10px;
+  margin-inline: 7px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  left: 50px;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  font-size: 10px;
+  outline: none;
+  margin-inline: 2px;
+  width: 171px;
+  position: relative;
+  left: 50px;
+}
+
+.input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.searchName {
+  position: relative;
+  margin-inline: 5px;
+  top: 32px;
+  right: 183px;
+}

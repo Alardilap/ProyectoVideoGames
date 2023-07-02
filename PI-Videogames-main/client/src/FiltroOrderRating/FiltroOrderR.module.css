@@ -1,0 +1,16 @@
+.orderRating{
+    font-family: cursive;
+    font-size: 20px;  
+  
+    background-color: transparent;
+    border: none;
+    outline: none; /* Eliminar el borde de enfoque */
+    position: absolute;
+    top: 30px;
+    left: 22%;
+    width: 152px;
+}
+
+.orderRating:hover{
+    color:#00bbf0;
+}

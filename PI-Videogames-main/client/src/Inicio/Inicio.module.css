@@ -1,0 +1,29 @@
+.imagenprin{
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.boton{
+    z-index: 100;
+    position: absolute;
+    top: 200px;
+    left: 43%;
+    font-size: 44px;
+    font-family: cursive;
+color:#e0e0e0;
+background-color: transparent;
+border: none;
+}
+.titulo{
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    border-radius: 25px solid;
+    font-size: 47px;
+  color: #a2c11c;
+    font-family: cursive;
+}

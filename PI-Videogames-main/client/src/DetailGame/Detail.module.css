@@ -1,0 +1,79 @@
+.genres{
+    gap:20px;
+    color:black;
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+ bottom: 37px;
+
+}
+
+.description{
+    color:black;
+    font-weight: 600;
+    font-size: 10px;
+}
+.name{
+    color:black;
+}
+.released{
+    color:black;
+    font-weight: 600;
+}
+.platforms{
+   color:black;
+   font-weight: 600;
+   top: -78px;
+   position: relative;
+   font-size: 20px;
+}
+.rating{
+    color:black;
+    font-weight: 600;
+}
+.contenedordetail{
+    height: 578px;
+    width: 900px;
+    border: 2px solid;
+    position: absolute;
+    top: 25px;
+    left: 237px;
+    border-radius: 20px;
+    background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%)}
+
+
+    .description{
+   
+/* font-weight: bold; */
+margin-top: 12px;
+color:black;
+font-size: 10px;
+max-height: 45px;
+overflow:hidden;
+text-overflow: ellipsis;
+white-space:nowrap;
+z-index: 600;
+white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 30; /* Número de líneas a mostrar */
+  -webkit-box-orient: vertical;
+    }
+    .button{
+        color:white;
+        font-family: cursive;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 50px;
+      left:260px;
+        border: 2px;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .button:hover{
+        color:#92d3e6;
+    }

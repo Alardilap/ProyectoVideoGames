@@ -1,0 +1,19 @@
+.rating{
+    font-family: cursive;
+    font-size: 20px;
+  position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none; /* Eliminar el borde de enfoque */
+    position: absolute;
+    top: 30px;
+    left: 70%;
+    width: 135px;
+  
+
+}
+.rating:hover{
+  color:#00bbf0;
+    
+  
+}
